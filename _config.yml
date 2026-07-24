@@ -1,0 +1,9 @@
+title: Sudarshan Vankudre
+description: Personal website of Sudarshan Vankudre
+url: https://sdrshnv.github.io
+baseurl: ""
+
+markdown: kramdown
+
+exclude:
+  - README.md
