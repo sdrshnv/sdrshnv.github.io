@@ -11,6 +11,10 @@ I like to make things that are delightful or useful.
 
 ## Projects
 
+### Pokezero
+
+A superhuman pokemon showdown agent. WIP. 
+
 ### [Guess the Elo](https://gte-web.vercel.app)
 
 A web app that guesses Elo ratings given a chess game. Trained on the Lichess open database with billions of games.
