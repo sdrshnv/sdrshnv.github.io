@@ -13,7 +13,7 @@ I like to make things that are delightful or useful.
 
 ### Pokezero
 
-A superhuman pokemon showdown agent. WIP. 
+A superhuman Pokémon showdown agent. WIP. 
 
 ### [Guess the Elo](https://gte-web.vercel.app)
 
