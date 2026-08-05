@@ -11,7 +11,7 @@ I like to make things that are delightful or useful.
 
 ## Projects
 
-### Pokezero
+### Pokézero
 
 A superhuman Pokémon showdown agent. WIP. 
 
