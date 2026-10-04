@@ -7,6 +7,8 @@ title: Sudarshan Vankudre
 
 I like to make things that are delightful or useful.
 
+I also review [clothing]({{ '/clothing/' | relative_url }}).
+
 ---
 
 ## Projects
