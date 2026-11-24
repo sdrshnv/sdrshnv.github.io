@@ -31,3 +31,8 @@ bundle exec jekyll serve --livereload
 ```
 
 Then open <http://localhost:4000>.
+
+## Adding a clothing review
+
+Create `_reviews/<slug>.md` with `title`, `brand` and `date` front matter and
+write the review in Markdown. It appears automatically on `/clothing/`.

@@ -7,3 +7,15 @@ markdown: kramdown
 
 exclude:
   - README.md
+
+collections:
+  reviews:
+    output: true
+    permalink: /clothing/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: reviews
+    values:
+      layout: review

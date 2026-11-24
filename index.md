@@ -5,7 +5,7 @@ title: Sudarshan Vankudre
 
 ## About Me
 
-I like to make things that are delightful or useful. I also review [clothing](#).
+I like to make things that are delightful or useful. I also review [clothing](/clothing/).
 
 ---
 

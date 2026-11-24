@@ -1,0 +1,12 @@
+---
+layout: clothing
+---
+<article>
+  <header class="review-header">
+    <p class="meta">{{ page.brand }} · {{ page.date | date: "%B %-d, %Y" }}</p>
+    <h1 class="page-title">{{ page.title }}</h1>
+  </header>
+  <div class="review-body">
+    {{ content }}
+  </div>
+</article>
