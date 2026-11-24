@@ -1,4 +1,5 @@
 ---
+published: false
 layout: clothing
 title: Clothing
 permalink: /clothing/
