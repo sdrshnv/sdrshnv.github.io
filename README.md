@@ -36,3 +36,16 @@ Then open <http://localhost:4000>.
 
 Create `_reviews/<slug>.md` with `title`, `brand` and `date` front matter and
 write the review in Markdown. It appears automatically on `/clothing/`.
+
+## Wearlog data on review pages
+
+Add `wearlog_id: <item id>` to a review's front matter to show that item's
+comfort range from [WearLog](../wearlog) in a banner at the top of the page.
+Refresh the numbers with:
+
+```sh
+node scripts/update-wearlog.mjs
+```
+
+then commit `_data/wearlog.json`. Only items referenced by a review, and only
+their comfort range and wear count, are written.

@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-11-24T04:19:44.462Z",
+  "items": {
+    "0eea3db7-2ccc-4270-aeae-df617bf8b6f8": {
+      "comfort_range": {
+        "min": -5,
+        "max": 20
+      },
+      "wear_count": 30
+    },
+    "27eff7ad-f288-4752-be09-fc7e3075d5e9": {
+      "comfort_range": {
+        "min": -5,
+        "max": 15
+      },
+      "wear_count": 7
+    }
+  }
+}

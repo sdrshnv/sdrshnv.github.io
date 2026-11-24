@@ -1,0 +1,12 @@
+{%- assign w = site.data.wearlog.items[page.wearlog_id] -%}
+{%- if page.wearlog_id and w.comfort_range -%}
+{%- assign cmin = w.comfort_range.min -%}
+{%- assign cmax = w.comfort_range.max -%}
+{%- assign fmin = cmin | times: 9 | divided_by: 5.0 | plus: 32 | round -%}
+{%- assign fmax = cmax | times: 9 | divided_by: 5.0 | plus: 32 | round -%}
+<aside class="wearlog-banner">
+  <p class="meta">Comfort range</p>
+  <p class="range">{{ fmin | replace: '-', '−' }}–{{ fmax | replace: '-', '−' }} °F</p>
+  <p class="detail">{{ cmin | replace: '-', '−' }}–{{ cmax | replace: '-', '−' }} °C · from {{ w.wear_count }} logged wear{% if w.wear_count != 1 %}s{% endif %}</p>
+</aside>
+{%- endif -%}
